@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 114.637 s <<< FAILURE! - in TestSuite
+feature(runner.Runner2)  Time elapsed: 76.623 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+
+feature(runner.Runner)  Time elapsed: 113.843 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+
